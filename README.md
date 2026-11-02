@@ -15,9 +15,9 @@ The pairing term used in the scripts is
 $$
 \delta_p(A,Z)=
 \begin{cases}
-+\dfrac{a_p}{A^{3/4}} & \text{if } Z \text{ and } N \text{ are both even} \\[4pt]
--\dfrac{a_p}{A^{3/4}} & \text{if } Z \text{ and } N \text{ are both odd} \\[4pt]
-0 & \text{if } A \text{ is odd}
++\dfrac{a_p}{A^{3/4}}, & \text{if } Z \text{ and } N \text{ are both even},\\
+-\dfrac{a_p}{A^{3/4}}, & \text{if } Z \text{ and } N \text{ are both odd},\\
+0, & \text{if } A \text{ is odd}.
 \end{cases}
 $$
 

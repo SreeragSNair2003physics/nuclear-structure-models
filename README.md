@@ -15,11 +15,12 @@ The pairing term used in the scripts is
 $$
 \delta_p(A,Z)=
 \begin{cases}
-+\dfrac{a_p}{A^{3/4}}, & Z \text{ and } N \text{ are both even}, \\[4pt]
--\dfrac{a_p}{A^{3/4}}, & Z \text{ and } N \text{ are both odd}, \\[4pt]
-0, & A \text{ is odd}.
++\dfrac{a_p}{A^{3/4}} & \text{if } Z \text{ and } N \text{ are both even} \\[4pt]
+-\dfrac{a_p}{A^{3/4}} & \text{if } Z \text{ and } N \text{ are both odd} \\[4pt]
+0 & \text{if } A \text{ is odd}
 \end{cases}
 $$
+
 
 The calculation divides $B$ by $A$ to obtain binding energy per nucleon. For the experimental-data curve, it selects the largest CSV value of $B/A$ at each $A$, forming an upper envelope. For the SEMF curve, it searches over $Z$ at each $A$ and plots the largest predicted $B/A$. The model curve starts at $A=16$.
 

@@ -24,7 +24,7 @@ $$
 
 The calculation divides $B$ by $A$ to obtain binding energy per nucleon. For the experimental-data curve, it selects the largest CSV value of $B/A$ at each $A$, forming an upper envelope. For the SEMF curve, it searches over $Z$ at each $A$ and plots the largest predicted $B/A$. The model curve starts at $A=16$.
 
-[Nuclear binding energy curve](https://github.com)
+![Nuclear binding energy curve](figures/binding_energy_curve.png)
 
 ## 2. Beta stability and drip lines
 
@@ -46,7 +46,7 @@ $$
 
 A positive separation energy means that adding the nucleon increases the total binding energy. The plotted boundary is where the corresponding separation energy first becomes non-positive after being positive. These are SEMF estimates; the formula does not include the detailed shell effects that influence real drip lines.
 
-[SEMF beta stability and drip lines](https://github.com)
+![SEMF beta stability and drip lines](figures/semf_stability_driplines.png)
 
 ## 3. Spherical 3D harmonic oscillator
 
@@ -64,7 +64,7 @@ $$
 
 The script plots the shell energies and prints the cumulative particle counts after filling each shell. These are closures of the ideal harmonic oscillator; this model alone does not reproduce the full set of observed nuclear magic numbers.
 
-[3D harmonic oscillator energy levels](https://github.com)
+![3D harmonic oscillator energy levels](figures/3d_ho_energy_levels.png)
 
 ## 4. Spin-orbit splitting in a shell-model diagram
 
@@ -86,7 +86,7 @@ $$
 
 The spin-orbit term splits the two $j$ values when $\ell>0$; an $s$ orbital does not split. This figure is a schematic illustration using the selected $C$ and $D$ values, rather than a parameter-fitted spectrum.
 
-[Shell-model energy levels](https://github.com)
+![Shell-model energy levels](figures/shell_model_energy_levels.png)
 
 ## 5. First-order axial deformation of the oscillator
 
@@ -98,7 +98,7 @@ $$
 
 The deformation parameter $\delta$ shifts the spherical oscillator energies and lifts their degeneracies. This calculation illustrates the deformation effect by itself; it does not include spin-orbit or Nilsson $\ell^2$ terms.
 
-[First-order axial deformation splitting of 3D HO levels](https://github.com)
+![First-order axial deformation splitting](figures/anisotropic_ho_first_order.png)
 
 ## 6. Nilsson single-particle levels
 
@@ -130,7 +130,7 @@ Here, $\kappa_N$ and $\mu_N$ are shell-dependent parameters listed in the script
 
 **Approximation:** the deformation matrix elements are restricted to states with the same major-shell number $N$. Couplings between different major shells are omitted.
 
-[Neutron Nilsson diagram](https://github.com)
+![Neutron Nilsson diagram](figures/nilsson_diagram.png)
 
 ## 7. Shell gaps versus deformation
 
@@ -142,8 +142,7 @@ $$
 
 Here, $p$ is the number of filled neutron states; it does not mean proton number. The plotted gaps are properties of this truncated model spectrum, not measured nuclear gaps.
 
-[Neutron shell gaps versus deformation](https://github.com)
-
+![Neutron shell gaps versus deformation](figures/neutron_shell_gaps_vs_deformation.png)
 ## Data and references
 
 The binding-energy CSV is described in the script as based on AME2020. The AME2020 mass tables and evaluation are available from the [Atomic Mass Data Center](https://impcas.ac.cn); the evaluation is described in [AME2020 Part II](https://doi.org).

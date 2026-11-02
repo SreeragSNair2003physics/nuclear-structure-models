@@ -77,10 +77,10 @@ $$
 with chosen values $C=-0.1$ and $D=0.0225$. For spin $s=\tfrac{1}{2}$,
 
 $$
-\langle\boldsymbol{\ell}\cdot\mathbf{s}\rangle =
+\left\langle \boldsymbol{\ell}\cdot\mathbf{s}\right\rangle =
 \begin{cases}
-\dfrac{\ell}{2}, & j=\ell+\dfrac{1}{2}, \\[4pt]
--\dfrac{\ell+1}{2}, & j=\ell-\dfrac{1}{2}.
+\frac{\ell}{2}, & j=\ell+\frac{1}{2},\\
+-\frac{\ell+1}{2}, & j=\ell-\frac{1}{2}.
 \end{cases}
 $$
 
